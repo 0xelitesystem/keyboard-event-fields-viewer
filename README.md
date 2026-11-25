@@ -1,8 +1,8 @@
-# Keycode Inspector
+# Keyboard Event Fields Viewer
 
 Press any key and instantly see the JavaScript keyboard event fields for it: `event.key`, `event.code`, the deprecated `keyCode` and `which`, `event.location`, and which modifier keys are held. Like keycode.info, but a single self-contained file with no external dependencies. Works offline.
 
-**Live demo:** https://0xelitesystem.github.io/keycode-inspector/
+**Live demo:** https://0xelitesystem.github.io/keyboard-event-fields-viewer/
 
 ## Use
 
@@ -38,8 +38,8 @@ Everything runs in your browser. Keypresses are read locally and never sent anyw
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/keycode-inspector
-cd keycode-inspector
+git clone https://github.com/0xelitesystem/keyboard-event-fields-viewer
+cd keyboard-event-fields-viewer
 ```
 
 Open `index.html` in any modern browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
